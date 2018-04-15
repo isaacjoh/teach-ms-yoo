@@ -7,7 +7,7 @@ const Home = () => (
       <p>This is the Home Page</p>
       <img src="images/teacher-placeholder.jpg" alt="teacher"/>
       <p>My name is Hayoung Yoo.</p>
-      <p>I have best fiance ever!</p>
+      <p>I have the best fiance ever!</p>
       <p>I love ice cream.</p>
       <p>I like dogs.</p>
     </div>

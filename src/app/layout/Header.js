@@ -47,30 +47,30 @@ class Header extends React.Component {
                         </span>
                         Accomplishments
                     </NavLink>
-                    <a className="navbar-item">
+                    <NavLink className="navbar-item" to="/recommendations" activeClassName="is-active">
                         <span className="icon" style={{ marginRight: 5 }}>
                             <i className="fas fa-thumbs-up"></i>
                         </span>
                         Recommendations
-                    </a>
-                    <a className="navbar-item">
+                    </NavLink>
+                    <NavLink className="navbar-item" to="/blended-learning" activeClassName="is-active">
                         <span className="icon" style={{ marginRight: 5 }}>
                             <i className="fas fa-tablet-alt"></i>
                         </span>
                         Blended Learning
-                    </a>
-                    <a className="navbar-item">
+                    </NavLink>
+                    <NavLink className="navbar-item" to="/workshop" activeClassName="is-active">
                         <span className="icon" style={{ marginRight: 5 }}>
-                            <img className="pencil-icon" src="images/workshop.png" alt="workshop"/>
+                          <img className="pencil-icon" src="images/workshop.png" alt="workshop"/>
                         </span>
                         Reader's and Writer's Workshop
-                    </a>
-                    <a className="navbar-item">
+                    </NavLink>
+                    <NavLink className="navbar-item" to="/cgi-math" activeClassName="is-active">
                         <span className="icon" style={{ marginRight: 5 }}>
-                            <img src="images/cgi-math.png" alt="math"/>
+                          <img src="images/cgi-math.png" alt="math"/>
                         </span>
                         <span>CGI Math</span>
-                    </a>
+                    </NavLink>
                     {/* <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link" >
                             Projects
