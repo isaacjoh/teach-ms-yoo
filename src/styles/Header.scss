@@ -1,0 +1,54 @@
+@import './Mixins.scss';
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  text-align: center;
+  margin: .5rem 0 1rem;
+  a {
+    color: inherit;
+  }
+  h1 {
+    display: inline-block;
+  }
+  @include breakpoint(md-below) {
+    order: 2;
+  }
+}
+
+.navbar {
+  @include breakpoint(md-below) {
+    order: 1;
+  }
+}
+
+.navbar-menu {
+  justify-content: center;
+}
+
+.navbar-start {
+  margin-right: 0;
+}
+
+.navbar-item {
+  display: flex;
+  img {
+    height: 100%;
+    width: 100%;
+    &.pencil-icon {
+      height: 80%;
+      width: 80%;
+    }
+  }
+}
+
+.fa-trophy {
+  color: gold;
+}
+
+.fa-thumbs-up {
+  color: #4267b2;
+}
