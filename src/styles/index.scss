@@ -1,25 +1,46 @@
 // 1. Import the initial variables
 @import "bulma/sass/utilities/initial-variables.sass";
 @import "bulma/sass/utilities/functions.sass";
-
 // 2. Setup your Custom Colors
 $purple: hsl(275, 87%, 45%);
 $purple-invert: findColorInvert($purple);
-
 // 3. Add new color variables to the color map.
 @import "bulma/sass/utilities/derived-variables.sass";
 $addColors: ( "purple":($purple, $purple-invert), );
 $colors: map-merge($colors, $addColors);
 @import "bulma/bulma.sass";
-
 h1 {
   font-size: 2.2rem;
 }
-
+h2 {
+  font-size: 1.5rem;
+}
 div {
   position: relative;
 }
+p {
+  margin-bottom: 1rem;
+}
+
+// body {
+//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb3ba+0,ffb3ba+52,bae1ff+100 */
+//   background: #ffb3ba;
+//   /* Old browsers */
+//   background: -moz-linear-gradient(-45deg, #ffb3ba 0%, #ffb3ba 52%, #bae1ff 100%);
+//   /* FF3.6-15 */
+//   background: -webkit-linear-gradient(-45deg, #ffb3ba 0%, #ffb3ba 52%, #bae1ff 100%);
+//   /* Chrome10-25,Safari5.1-6 */
+//   background: linear-gradient(135deg, #ffb3ba 0%, #ffb3ba 52%, #bae1ff 100%);
+//   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb3ba', endColorstr='#bae1ff', GradientType=1);
+//   /* IE6-9 fallback on horizontal gradient */
+// }
 
 @import "./Layout.scss";
 @import "./Header.scss";
+@import "./Footer.scss";
+@import "./Home.scss";
+@import "./Recommendations.scss";
+@import "./Accomplishments.scss";
 @import "./AnimatedRoute.scss";
+@import "../app/helpers/Title.scss";

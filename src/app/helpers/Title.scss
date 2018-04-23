@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 1.25rem;
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 40%;
+    border-bottom: solid 6px #000;
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    z-index: 1;
+  }
+}

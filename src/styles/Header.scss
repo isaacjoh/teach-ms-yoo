@@ -1,5 +1,4 @@
 @import './Mixins.scss';
-
 .header-section {
   display: flex;
   flex-direction: column;
@@ -14,12 +13,16 @@
   h1 {
     display: inline-block;
   }
+  p {
+    margin-bottom: 0;
+  }
   @include breakpoint(md-below) {
     order: 2;
   }
 }
 
 .navbar {
+  background: transparent;
   @include breakpoint(md-below) {
     order: 1;
   }

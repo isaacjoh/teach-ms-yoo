@@ -1,0 +1,21 @@
+.recommendations-container {
+  padding: 0px 5%;
+
+  .recommendation-neuer {
+    img {
+      position: relative;
+      top: 16px;
+    }
+  }
+
+  .columns {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    @include breakpoint(sm) {
+      min-width: 238px;
+      max-width: 238px;
+    }
+  }
+}
