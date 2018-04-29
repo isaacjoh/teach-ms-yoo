@@ -8,7 +8,7 @@ const Recommendations = () => (
 
     <div className="recommendations-container">
       <div className="columns">
-        <div className="column recommendation-neuer">
+        <div className="column">
           <a href="images/LOR-Neuer-page-001.jpg" data-lightbox="LORS">
             <img src="images/LOR-Neuer-page-001.jpg" alt="neuer-thumbnail" />
             <div className="thumbnail-caption">

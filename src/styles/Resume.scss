@@ -1,0 +1,15 @@
+@import './Mixins.scss';
+
+.resume-container {
+  padding: 0px 5%;
+
+  .columns {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    @include breakpoint(sm) {
+      width: 80%;
+    }
+  }
+}

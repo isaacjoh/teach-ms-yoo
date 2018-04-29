@@ -22,6 +22,12 @@
   }
 }
 
+.header-highlight {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
 .navbar {
   background: transparent;
   @include breakpoint(md-below) {

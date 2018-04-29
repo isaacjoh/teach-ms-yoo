@@ -41,13 +41,13 @@ const Home = () => (
 
         <div className="certs-container">
           <img className="cert" src="images/google-cert.png" alt="google-cert" />
-          <img className="cert" src="images/google-cert.png" alt="google-cert" />
-          <img className="cert" src="images/google-cert.png" alt="google-cert" />
-          <img className="cert" src="images/google-cert.png" alt="google-cert" />
+          <a href="images/glad-certification.jpg" data-lightbox="certifications">
+            <img className="cert" src="images/glad-certification.jpg" alt="glad-certification" />
+          </a>
         </div>
       </div>
     </div>
-
+    
     <Footer />
   </div>
 )
