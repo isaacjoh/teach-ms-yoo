@@ -26,12 +26,25 @@
   width: 75%;
   margin: 0 auto;
   font-size: 16px;
+
+  @include breakpoint(xs) {
+    display: none;
+  }
+}
+
+.header-highlight-mobile {
+  display: none;
+  @include breakpoint(xs) {
+    display: block;
+  }
 }
 
 .navbar {
   background: transparent;
+  border-bottom: solid 1px #dddddd;
   @include breakpoint(md-below) {
     order: 1;
+    border-bottom: none;
   }
 }
 

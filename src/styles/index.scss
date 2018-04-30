@@ -9,6 +9,9 @@ $purple-invert: findColorInvert($purple);
 $addColors: ( "purple":($purple, $purple-invert), );
 $colors: map-merge($colors, $addColors);
 @import "bulma/bulma.sass";
+
+@import "./Mixins.scss";
+
 h1 {
   font-size: 2.2rem;
 }
@@ -20,6 +23,26 @@ div {
 }
 p {
   margin-bottom: 1rem;
+}
+
+.page {
+  padding: 0 7%;
+  @include breakpoint(lg) {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.tint {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: .2;
+  z-index: 1;
 }
 
 // body {

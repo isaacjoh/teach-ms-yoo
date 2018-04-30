@@ -3,9 +3,8 @@ import Title from './helpers/Title'
 import Footer from './layout/Footer'
 
 const BlendedLearning = () => (
-  <div className="blended-learning">
+  <div className="page blended-learning">
     <div className="container">
-      <Title text="2nd Grade NGSS + GLAD Strategies" />
       <div className="columns">
         <div className="card column">
           <div className="card-image">

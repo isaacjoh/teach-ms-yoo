@@ -26,14 +26,11 @@ class Header extends React.Component {
             backwards designed lessons by incorporating student choice, voice,
             and interest.
           </p>
+          <p className="header-highlight-mobile">
+            Passionate student-centered educator
+          </p>
         </div>
-        <nav
-          className="navbar"
-          aria-label="main navigation"
-          style={{
-            borderBottom: "solid 1px #dddddd"
-          }}
-        >
+        <nav className="navbar" aria-label="main navigation">
           <div className="navbar-brand">
             <button className="button navbar-burger" onClick={this.toggleNav}>
               <span />
@@ -53,7 +50,7 @@ class Header extends React.Component {
                 activeClassName="is-active"
               >
                 <span className="icon" style={{ marginRight: 5 }}>
-                  <i className="far fa-file" />
+                  <i className="fas fa-file-alt" />
                 </span>
                 Resume
               </NavLink>

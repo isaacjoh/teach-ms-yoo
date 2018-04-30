@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './layout/Footer'
 
 const Workshop = () => (
-  <div>
+  <div className="page">
     <p>This is the Workshop page</p>
 
     <Footer />

@@ -3,7 +3,7 @@ import Title from './helpers/Title'
 import Footer from "./layout/Footer";
 
 const Resume = () => (
-  <div>
+  <div className="page">
     <Title text="Resume" />
 
     <div className="resume-container">
@@ -15,7 +15,7 @@ const Resume = () => (
         </div>
         <div className="column">
           <div className="hider">
-            
+
           </div>
           <a href="images/hayoung_yoo_resume_2018-page-002.jpg" data-lightbox="resume">
             <img src="images/hayoung_yoo_resume_2018-page-002.jpg" alt="page-2-thumbnail" />

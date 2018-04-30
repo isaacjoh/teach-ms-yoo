@@ -1,23 +1,48 @@
-@import './Mixins.scss';
+@import "./Mixins.scss";
 
 .recommendations-container {
-  padding: 0px 5%;
+  .card {
+    margin: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
 
-  .recommendation-neuer {
-    img {
-      position: relative;
-      top: 16px;
+    &:hover {
+      box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  .card-content {
+    .title {
+      display: inline-block;
+      font-size: 1.3rem;
+
+      &:after {
+        right: 0;
+        left: auto;
+        width: 45px;
+      }
+    }
+  }
+
+  .card-image {
+    figure {
+      overflow: hidden;
     }
   }
 
   .columns {
     flex-wrap: wrap;
+    margin: 0;
   }
 
-  .column {
-    @include breakpoint(sm) {
-      min-width: 238px;
-      max-width: 238px;
+  .media-content {
+    text-align: right;
+  }
+
+  .image {
+    img {
+      height: auto !important;
+      width: auto !important;
+      filter: blur(1px);
     }
   }
 }
