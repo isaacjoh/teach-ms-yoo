@@ -19,15 +19,15 @@ class Header extends React.Component {
           <NavLink to="/" activeClassName="is-active">
             <h1>Hayoung Yoo</h1>
           </NavLink>
-          <p className="header-highlight">
-            Passionate student-centered educator who empowers students through
+          <p className="header-highlight page">
+            Innovative and passionate student-centered educator who empowers students through
             21st century skills, blended learning, cognitively guided
             instruction, differentiated instruction, FactsWise, and skillful
             backwards designed lessons by incorporating student choice, voice,
             and interest.
           </p>
           <p className="header-highlight-mobile">
-            Passionate student-centered educator
+            Innovative and passionate student-centered educator
           </p>
         </div>
         <nav className="navbar" aria-label="main navigation">

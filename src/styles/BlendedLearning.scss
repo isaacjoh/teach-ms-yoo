@@ -1,5 +1,26 @@
 .blended-learning {
-  .title {
+  .tile {
+    .title {
+      font-size: 1.5rem;
+      &::after {
+        width: 0;
+      }
+    }
+  }
+
+  .title:not(.is-spaced) + .subtitle {
+    margin-top: -1.1rem;
+  }
+
+  .is-4by3 {
+    padding-top: 44%;
+  }
+
+  .subtitle {
     display: block;
+  }
+
+  .nearpod, .google-slides, .team-task {
+    height: auto !important;
   }
 }
