@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AnimatedRouteWrapper from './../AnimatedRouteWrapper'
+import { Switch, Route } from 'react-router-dom'
 
 import Home from './../Home'
 import Resume from './../Resume'
@@ -10,13 +10,13 @@ import Workshop from '../Workshop';
 import CGIMath from '../CGIMath';
 
 const Router = () => (
-  <div>
-    <AnimatedRouteWrapper exact path='/' component={Home}/>
-    <AnimatedRouteWrapper path='/resume' component={Resume}/>
-    <AnimatedRouteWrapper path='/recommendations' component={Recommendations}/>
-    <AnimatedRouteWrapper path='/blended-learning' component={BlendedLearning}/>
-    <AnimatedRouteWrapper path='/workshop' component={Workshop}/>
-    <AnimatedRouteWrapper path='/cgi-math' component={CGIMath}/>
-  </div>
+  <Switch>
+    <Route exact path='/' component={Home}/>
+    <Route path='/resume' component={Resume}/>
+    <Route path='/recommendations' component={Recommendations}/>
+    <Route path='/blended-learning' component={BlendedLearning}/>
+    <Route path='/workshop' component={Workshop}/>
+    <Route path='/cgi-math' component={CGIMath}/>
+  </Switch>
 )
 export default Router

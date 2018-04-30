@@ -1,6 +1,5 @@
 import React from "react";
 import Title from './helpers/Title'
-import Footer from "./layout/Footer";
 
 const Resume = () => (
   <div className="page">
@@ -24,7 +23,6 @@ const Resume = () => (
       </div>
     </div>
 
-    <Footer />
   </div>
 );
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import Title from './helpers/Title'
-import Footer from './layout/Footer'
 
 const BlendedLearning = () => (
   <div className="page blended-learning">
@@ -83,7 +82,6 @@ const BlendedLearning = () => (
       </div>
     </div>
 
-    <Footer />
   </div>
 )
 

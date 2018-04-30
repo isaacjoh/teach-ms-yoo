@@ -6,6 +6,7 @@ import Site from './layout/Site'
 import Header from './layout/Header'
 import Content from './layout/Content'
 import Router from './layout/Router'
+import Footer from './layout/Footer'
 
 const Layout = ({ children }) => (
   <Site>
@@ -35,6 +36,7 @@ const Layout = ({ children }) => (
     <Content>
       <Router />
     </Content>
+    <Footer />
   </Site>
 )
 
