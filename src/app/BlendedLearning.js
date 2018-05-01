@@ -11,7 +11,11 @@ const BlendedLearning = () => (
           <article className="tile is-child notification is-info">
             <p className="title">Expert Groups were taught using Nearpod</p>
             <figure className="image is-4by3">
-              <img className="nearpod" src="images/nearpod.png" />
+              <img
+                className="blended-learning-img"
+                src="images/nearpod.png"
+                alt="nearpod"
+              />
             </figure>
           </article>
           <article className="tile is-child notification is-warning">
@@ -22,7 +26,11 @@ const BlendedLearning = () => (
               students time to self-reflect on their learning.
             </p>
             <figure className="image is-4by3">
-              <img className="google-slides" src="images/google-sites.jpeg" />
+              <img
+                className="blended-learning-img"
+                src="images/google-sites.jpeg"
+                alt="google-slides"
+              />
             </figure>
           </article>
         </div>
@@ -38,12 +46,17 @@ const BlendedLearning = () => (
           <a
             className="subtitle"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://dreamy-hoover-cc92d8.netlify.com/"
           >
             Check it out here!
           </a>
           <figure className="image is-4by3">
-            <img className="google-slides" src="images/desert-min.png" />
+            <img
+              className="blended-learning-img"
+              src="images/desert-min.png"
+              alt="desert"
+            />
           </figure>
         </article>
       </div>
@@ -55,11 +68,15 @@ const BlendedLearning = () => (
           <p className="title">Team Task</p>
           <p className="subtitle">
             While I worked with expert groups, students worked on different team
-            tasks. One of the tasks was to learn more about different habitats as
-            a group by using the links I provided on Google Slides.
+            tasks. One of the tasks was to learn more about different habitats
+            as a group by using the links I provided on Google Slides.
           </p>
           <figure className="image is-4by3">
-            <img className="team-task" src="images/team-task-min.png" />
+            <img
+              className="blended-learning-img"
+              src="images/team-task-min.png"
+              alt="team-task-1"
+            />
           </figure>
         </article>
       </div>
@@ -67,10 +84,15 @@ const BlendedLearning = () => (
         <article className="tile is-child notification is-danger">
           <p className="title">Science Project using Do Ink</p>
           <p className="subtitle">
-            Make an alien planet and include characteristics, plants, animals, and interesting facts as a group
+            Make an alien planet and include characteristics, plants, animals,
+            and interesting facts as a group
           </p>
           <figure className="image is-4by3">
-            <img className="team-task" src="images/do-ink.jpg" />
+            <img
+              className="blended-learning-img"
+              src="images/do-ink.jpg"
+              alt="team-task-2"
+            />
           </figure>
         </article>
       </div>
