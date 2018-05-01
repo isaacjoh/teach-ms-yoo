@@ -11,6 +11,10 @@
     width: 1000px;
   }
 
+  .columns {
+    margin-top: 0;
+  }
+
   .column {
     display: flex;
     flex-direction: column;
@@ -19,7 +23,19 @@
 
   .bio-img {
     img {
-      float: right;
+      max-width: 350px;
+      max-height: 350px;
+      margin: 0 auto;
+      border-radius: 50%;
+
+      @include breakpoint(xs) {
+        max-width: 120px;
+        max-height: 120px;
+        align-self: flex-end;
+        position: absolute;
+        top: 0;
+        right: 60px;
+      }
     }
   }
 
@@ -30,10 +46,15 @@
   }
 
   .certs-container {
-    height: 200px;
+    .cert-wrapper {
+      display: inline-block;
+      height: 200px;
+    }
 
     img {
+      box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
       height: 100%;
+      margin-right: 18px;
     }
   }
 

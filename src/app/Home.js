@@ -2,7 +2,7 @@ import React from "react";
 import Title from "./helpers/Title";
 
 const Home = () => (
-  <div>
+  <div className="page">
     <div className="home-section">
       <div className="columns">
         <div className="column bio-img">
@@ -54,21 +54,25 @@ const Home = () => (
         <Title text="Certifications" />
 
         <div className="certs-container">
-          <img
-            className="cert"
-            src="images/google-cert.png"
-            alt="google-cert"
-          />
-          <a
-            href="images/glad-certification.jpg"
-            data-lightbox="certifications"
-          >
+          <div className="cert-wrapper">
             <img
               className="cert"
-              src="images/glad-certification.jpg"
-              alt="glad-certification"
+              src="images/google-cert.png"
+              alt="google-cert"
             />
-          </a>
+          </div>
+          <div className="cert-wrapper">
+            <a
+              href="images/glad-certification.jpg"
+              data-lightbox="certifications"
+            >
+              <img
+                className="cert"
+                src="images/glad-certification.jpg"
+                alt="glad-certification"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

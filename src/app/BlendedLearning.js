@@ -63,7 +63,7 @@ const BlendedLearning = () => (
     </div>
 
     <div className="tile is-ancestor">
-      <div className="tile is-parent is-8">
+      <div className="tile is-parent is-6">
         <article className="tile is-child notification is-info">
           <p className="title">Team Task</p>
           <p className="subtitle">
@@ -87,13 +87,14 @@ const BlendedLearning = () => (
             Make an alien planet and include characteristics, plants, animals,
             and interesting facts as a group
           </p>
-          <figure className="image is-4by3">
-            <img
-              className="blended-learning-img"
-              src="images/do-ink.jpg"
-              alt="team-task-2"
-            />
-          </figure>
+          <iframe
+            src="https://www.youtube.com/embed/_2FMkC1fHDw"
+            width="100%"
+            height="380"
+            frameBorder="0"
+            allowtransparency="true"
+            allowFullScreen
+          />
         </article>
       </div>
     </div>
