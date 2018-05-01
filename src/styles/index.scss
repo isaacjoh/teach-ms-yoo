@@ -6,7 +6,7 @@ $purple: hsl(275, 87%, 45%);
 $purple-invert: findColorInvert($purple);
 // 3. Add new color variables to the color map.
 @import "bulma/sass/utilities/derived-variables.sass";
-$addColors: ( "purple":($purple, $purple-invert), );
+$addColors: ("purple": ($purple, $purple-invert));
 $colors: map-merge($colors, $addColors);
 @import "bulma/bulma.sass";
 
@@ -26,15 +26,17 @@ p {
 }
 
 .page {
-  padding: 0 7%;
+  padding: 0 7% 18px;
   @include breakpoint(lg) {
     padding: 0;
+    padding-bottom: 36px;
     max-width: 1200px;
     margin: 0 auto;
   }
 }
 
-a.navbar-item.is-active, a.navbar-link.is-active {
+a.navbar-item.is-active,
+a.navbar-link.is-active {
   @include breakpoint(md) {
     color: #3273dc;
   }

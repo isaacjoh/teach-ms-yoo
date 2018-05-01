@@ -62,7 +62,7 @@ const BlendedLearning = () => (
       </div>
     </div>
 
-    <div class="tile is-ancestor">
+    <div className="tile is-ancestor">
       <div className="tile is-parent is-8">
         <article className="tile is-child notification is-info">
           <p className="title">Team Task</p>

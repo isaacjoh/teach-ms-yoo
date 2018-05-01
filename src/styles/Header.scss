@@ -1,4 +1,4 @@
-@import './Mixins.scss';
+@import "./Mixins.scss";
 
 .header-section {
   display: flex;
@@ -7,7 +7,7 @@
 
 .header-title {
   text-align: center;
-  margin: .5rem 0 1rem;
+  margin: 0.5rem 0 1rem;
   a {
     color: inherit;
   }
@@ -26,6 +26,7 @@
   width: 75%;
   margin: 0 auto;
   font-size: 16px;
+  padding-bottom: 0;
 
   @include breakpoint(md-below) {
     display: none;
@@ -36,6 +37,8 @@
   display: none;
   @include breakpoint(md-below) {
     display: block;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 

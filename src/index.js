@@ -6,6 +6,15 @@ import registerServiceWorker from "./registerServiceWorker";
 import "./styles/index.css";
 
 document.addEventListener("DOMContentLoaded", function() {
+  var $navbarMenu = document.querySelector(".navbar-menu");
+  var $navbarBurger = document.querySelector(".navbar-burger");
+
+  var $body = document.querySelector("body");
+  $body.addEventListener("click", function() {
+    $navbarMenu.classList.remove("is-active");
+    $navbarBurger.classList.remove("is-active");
+  });
+
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(
     document.querySelectorAll(".navbar-burger"),
@@ -16,14 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
   if ($navbarBurgers.length > 0) {
     // Add a click event on each of them
     $navbarBurgers.forEach(function($el) {
-      $el.addEventListener("click", function() {
-        // Get the target from the "data-target" attribute
-        var target = $el.dataset.target;
-        var $target = document.getElementById(target);
-
-        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+      $el.addEventListener("click", function(e) {
+        $navbarMenu.classList.toggle("is-active");
         $el.classList.toggle("is-active");
-        $target.classList.toggle("is-active");
+        e.stopPropagation();
       });
     });
   }

@@ -4,25 +4,9 @@ import Picture from "./helpers/Picture";
 
 const Workshop = () => (
   <div className="page workshop">
-    <Title text="Differentiated Instruction" />
-
-    <div className="columns">
-      <div className="column">
-        <Picture
-          src="images/differentiated-instruction-1.png"
-          text="I had students who struggled with decoding words with long vowels in my second grade class. My students showed huge interest and excitement with this activity."
-        />
-      </div>
-      <div className="column">
-        <Picture
-          src="images/differentiated-instruction-2.png"
-          text="This game helped to increase their engagement in learning as well as improved their decoding skills."
-        />
-      </div>
-    </div>
-
-    <Title text="Choice, Freedom, and Voice = Empowerment and Engagement" />
-
+    <Title text="Reader's and Writer's Workshop" />
+    <p class="subtitle">Choice, Voice, and Flexible Sitting = Empowerment and Engagement</p>
+    
     <div className="columns">
       <div className="column">
         <Picture
@@ -38,7 +22,7 @@ const Workshop = () => (
       </div>
     </div>
 
-    <Title text="Reader's Workshop?" />
+    <Title text="Workshop Contract" />
 
     <div className="columns">
       <div className="column is-two-fifths">
@@ -52,6 +36,23 @@ const Workshop = () => (
         <Picture
           src="images/readers-2.png"
           text="Reader’s Theater - Students practice reading with fluency and expression while having fun!"
+        />
+      </div>
+    </div>
+
+    <Title text="Differentiated Instruction" />
+
+    <div className="columns">
+      <div className="column">
+        <Picture
+          src="images/differentiated-instruction-1.png"
+          text="I had students who struggled with decoding words with long vowels in my second grade class. My students showed huge interest and excitement with this activity."
+        />
+      </div>
+      <div className="column">
+        <Picture
+          src="images/differentiated-instruction-2.png"
+          text="This game helped to increase their engagement in learning as well as improved their decoding skills."
         />
       </div>
     </div>

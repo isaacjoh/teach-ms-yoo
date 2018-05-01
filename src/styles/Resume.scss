@@ -12,4 +12,10 @@
       width: 80%;
     }
   }
+
+  .resume-page-2 {
+    @include breakpoint(sm) {
+      top: 32px;
+    }
+  }
 }
