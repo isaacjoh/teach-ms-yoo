@@ -24,7 +24,7 @@ class Header extends React.Component {
             21st century skills, blended learning, cognitively guided
             instruction, differentiated instruction, FactsWise, and skillful
             backwards designed lessons by incorporating student choice, voice,
-            and interest.
+            and interest
           </p>
           <p className="header-highlight-mobile">
             Innovative and passionate student-centered educator
