@@ -38,7 +38,16 @@ p {
 a.navbar-item.is-active,
 a.navbar-link.is-active {
   @include breakpoint(md) {
-    color: #3273dc;
+    color: #819ff7;
+  }
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-active,
+a.navbar-link:hover,
+a.navbar-link.is-active {
+  &:hover {
+    color: #819ff7;
   }
 }
 

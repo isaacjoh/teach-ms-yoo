@@ -89,6 +89,7 @@ const BlendedLearning = () => (
           </p>
           <iframe
             src="https://www.youtube.com/embed/_2FMkC1fHDw"
+            title="science project using do ink"
             width="100%"
             height="380"
             frameBorder="0"
