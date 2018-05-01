@@ -3,7 +3,7 @@ import Title from "./helpers/Title";
 import Picture from "./helpers/Picture";
 
 const CGIMath = () => (
-  <div className="page">
+  <div className="page cgi-math">
     <Title text="CGI Math" />
 
     <div className="columns">

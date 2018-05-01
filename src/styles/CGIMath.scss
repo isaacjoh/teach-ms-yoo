@@ -1,0 +1,9 @@
+@import "./Mixins.scss";
+
+.cgi-math {
+  .column {
+    @include breakpoint(sm) {
+      max-width: 500px;
+    }
+  }
+}
