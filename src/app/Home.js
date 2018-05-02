@@ -73,6 +73,18 @@ const Home = () => (
               />
             </a>
           </div>
+          <div className="cert-wrapper">
+            <a
+              href="images/iirp-cert.jpg"
+              data-lightbox="certifications"
+            >
+              <img
+                className="cert"
+                src="images/iirp-cert.jpg"
+                alt="iirp-certification"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
