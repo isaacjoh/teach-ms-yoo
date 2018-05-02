@@ -51,6 +51,10 @@ a.navbar-link.is-active {
   }
 }
 
+img[alt*="www.000webhost.com"] {
+  display: none;
+}
+
 // body {
 //   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb3ba+0,ffb3ba+52,bae1ff+100 */
 //   background: #ffb3ba;
