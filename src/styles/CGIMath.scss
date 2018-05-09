@@ -2,8 +2,8 @@
 
 .cgi-math {
   .column {
-    @include breakpoint(sm) {
-      max-width: 500px;
-    }
+    // @include breakpoint(sm) {
+    //   max-width: 500px;
+    // }
   }
 }

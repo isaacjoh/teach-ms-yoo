@@ -29,7 +29,6 @@ const Footer = () => (
             <span />
           </a>
         </div>
-        <p>Copyright 2018</p>
       </div>
     </div>
   </footer>

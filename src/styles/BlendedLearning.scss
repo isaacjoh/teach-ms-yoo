@@ -15,10 +15,16 @@
   }
 
   .is-4by3 {
-    padding-top: 44%;
-
     @include breakpoint(xs) {
       overflow: hidden;
+    }
+
+    @include breakpoint(sm) {
+      padding-top: 65%;
+    }
+
+    @include breakpoint(md) {
+      padding-top: 44%;
     }
   }
 

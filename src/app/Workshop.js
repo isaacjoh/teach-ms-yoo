@@ -5,8 +5,11 @@ import Picture from "./helpers/Picture";
 const Workshop = () => (
   <div className="page workshop">
     <Title text="Reader's and Writer's Workshop" />
-    <p class="subtitle">Choice, Voice, and Flexible Sitting = Empowerment and Engagement</p>
-    
+    <p class="subtitle">
+      I provide an atmosphere where students have choices, voices, and flexible
+      seating which empowers and engages them in learning.
+    </p>
+
     <div className="columns">
       <div className="column">
         <Picture
@@ -22,14 +25,14 @@ const Workshop = () => (
       </div>
     </div>
 
-    <Title text="Workshop Contract" />
+    <Title text="Differentiated Workshop Contracts" />
 
     <div className="columns">
       <div className="column is-two-fifths">
         <Picture
           ratio={true}
           src="images/readers-1.png"
-          text="Student record themselves reading and upload the best one to google classroom. Recording themselves reading engages students, and boost up their self-esteem to help them become confident readers. They can listen to themselves read and learn from their mistakes. They can also listen to other students read and learn from their peers."
+          text="Students record themselves reading and upload the best one to google classroom. Recording themselves reading engages students, and boost up their self-esteem to help them become confident readers. They can listen to themselves read and learn from their mistakes. They can also listen to other students read and learn from their peers."
         />
       </div>
       <div className="column is-three-fifths">
